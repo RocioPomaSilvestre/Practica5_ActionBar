@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemregresar"
+        android:icon="@drawable/iconoregresar1_foreground"
+        android:title="regresar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/itembuscar"
+        android:icon="@drawable/buscar_foreground"
+        android:title="buscar"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+    <item
+        android:title="notificacion"
+        app:showAsAction="always" />
+</menu>
